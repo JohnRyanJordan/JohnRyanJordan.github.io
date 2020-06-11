@@ -10,15 +10,13 @@ import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
 
-
 import './App.css';
 
 library.add(fas, fab);
 
 function App() {
-
   const { loading, error, data = [] } = useFetch('/siteData.json', {}, [])
-  console.log(loading, error, data);
+
   if (loading) {
     return <div className="loading">Loading...</div>;
   }
@@ -29,9 +27,9 @@ function App() {
   return (
     <div className="App">
       <Header data={data.basic} />
-      <About data={data.basic} />
       <Portfolio data={data.portfolio} />
       <Resume data={data.resume}/>
+      <About data={data.basic} />
       <Footer data={data.basic}/>
     </div>
   );

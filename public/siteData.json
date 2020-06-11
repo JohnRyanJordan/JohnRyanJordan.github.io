@@ -1,0 +1,103 @@
+{
+  "basic": {
+    "name":"Ryan Jordan",
+    "occupation":"Software Engineer and CTO/Cofounder @ Geoso, Inc.",
+    "description":"",
+    "bio":"Tinkering is my habit, building is my passion.",
+    "image":"profilepic.jpg",
+    "email": "johnryanjordan@gmail.com",
+    "website": "http://www.johnryanjordan.com",
+    "social":[
+      {
+        "name":"github",
+        "url":"https://github.com/johnryanjordan",
+        "className":"github"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/john-ryan-jordan",
+        "className":"linkedin"
+      },
+      {
+        "name":"facebook",
+        "url":"https://www.facebook.com/johnryanjordan",
+        "className":"facebook"
+      },
+      {
+        "name":"instagram",
+        "url":"https://www.instagram.com/john.ryan.jordan/",
+        "className":"instagram"
+      }
+    ],
+    "articles":[
+      {
+        "title":"PlaceHolder",
+        "url":"https://www.johnryanjordan.com",
+        "source":"PlaceHolder"
+      },
+      {
+        "title":"PlaceHolder",
+        "url":"https://www.johnryanjordan.com",
+        "source":"PlaceHolder"
+      }
+    ]
+  },
+  "resume":{
+    "resumedownload":"http://johnryanjordan.com/resume",
+    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "work":[
+      {
+        "company":"Geoso, Inc.",
+        "title":"CTO/Cofounder",
+        "years":"June 2018 - Present",
+        "description":"Fullstack developer using whatever tool suits the job."
+      },
+      {
+        "company":"Ankrom Moissan Architects, Inc.",
+        "title":"Research and Development Intern",
+        "years":"2016",
+        "description":"Developed tools for demographic and city expansion analysis."
+      }
+    ],
+    "certifications":[
+      {
+        "certificate":"AWS Certified Solutions Architect Associate",
+        "badge":"aws-certified-solutions-architect-associate.png",
+        "attained":"May 2020",
+        "url":"https://www.youracclaim.com/badges/fba0912c-c0f5-41a1-a490-a3da4f69ee93/public_url",
+        "description":""
+      },
+      {
+        "certificate":"AWS Certified Cloud Practitioner",
+        "badge":"aws-certified-cloud-practitioner.png",
+        "attained":"April 2020",
+        "url":"https://www.youracclaim.com/badges/d3b0ff39-7705-4163-a4e6-a95259d6de02/public_url",
+        "description":""
+      }
+    ],
+    "education":[
+      {
+        "school":"University of Arkansas",
+        "degree":"BS Electrical Engineering",
+        "graduated":"December 2017",
+        "description":""
+      },
+      {
+        "school":"Pulaski Academy",
+        "degree":"High School",
+        "graduated":"March 2013",
+        "description":""
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Geoso",
+        "category":"Website",
+        "image":"geoso-website.png",
+        "url":"https://github.com/geoso-inc"
+      }
+    ]
+  }
+}

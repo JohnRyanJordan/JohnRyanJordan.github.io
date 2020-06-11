@@ -23,7 +23,7 @@
 }
 
 #resume .header-col { padding-top: 9px; }
-#resume .main-col { padding-right: 10%; }
+#resume .main-col { text-align: left; padding-right: 10%; }
 
 .education, .work, .certifications {
   margin-bottom: 48px;
@@ -49,4 +49,23 @@
 #resume .date {
   font: 15px/24px 'opensans-regular', sans-serif;
   margin-top: 6px;
+}
+
+/* resume download link */
+#resume .download {
+  width: 100%;
+  padding-top: 6px;
+}
+#resume .main-col { padding-right: 5%; }
+#resume .download .button {
+  margin-top: 6px;
+  background: #444;
+}
+#resume .download .button:hover {
+  background: #fff;
+  color: #2B2B2B;
+}
+#resume .download .button i {
+  margin-right: 15px;
+  font-size: 20px;
 }

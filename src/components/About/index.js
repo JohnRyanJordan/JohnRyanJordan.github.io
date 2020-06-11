@@ -1,52 +1,52 @@
 import React, { Component } from 'react';
-import styles from './about.css';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import './about.css';
 
 class About extends Component {
   render() {
 
     if(this.props.data){
-      var name = this.props.data.name;
       var profilepic= "images/"+this.props.data.image;
       // var bio = this.props.data.bio;
-      var street = this.props.data.address.street;
-      var city = this.props.data.address.city;
-      var state = this.props.data.address.state;
-      var zip = this.props.data.address.zip;
-      var phone= this.props.data.phone;
       var email = this.props.data.email;
-      var resumeDownload = this.props.data.resumedownload;
+      var networks= this.props.data.social.map(function(network){
+        return <li key={network.name}><a href={network.url}><FontAwesomeIcon icon={['fab', network.className]}/></a></li>
+      })
+      var articles= this.props.data.articles.map(function(article){
+        return <li key={article.title}><a href={article.url}>{article.title}</a> <br/> <span> on: {article.source}</span> </li>
+      })
     }
 
     return (
       <section id="about">
         <div className="row">
-           <div className="three columns">
-              <img className="profile-pic"  src={profilepic} alt="Tim Baker Profile Pic" />
-           </div>
-           <div className="nine columns main-col">
+          <div className="three columns">
+            <img className="profile-pic"  src={profilepic} alt="profilepic" />
+          </div>
+          <div className="nine columns main-col">
             {/*
               <h2>About Me</h2>
               <p>{bio}</p>
             */}
-              <div className="row">
-                 <div className="columns contact-details">
-                    <h2>Contact Details</h2>
-                    <p className={styles.address}>
-  						   <span>{name}</span><br />
-  						   <span>{street}<br />
-  						         {city} {state}, {zip}
-                     </span><br />
-  						   <span>{phone}</span><br />
-                       <span>{email}</span>
-  					   </p>
-                 </div>
-                 <div className="columns download">
-                    <p>
-                       <a href={resumeDownload} className="button"><i className="fa fa-download"></i>Download Resume</a>
-                    </p>
-                 </div>
+            <div className="row">
+              <div className="columns details">
+                <FontAwesomeIcon className="section-icon" icon={"address-card"} />
+                <h2>Get in touch!</h2>
+                <p> <a href={"mailto:"+{email}}><span>{email}</span></a> </p>
+                <ul className="social">
+                  {networks}
+                </ul>
               </div>
-           </div>
+              <div className="columns details">
+                <FontAwesomeIcon className="section-icon" icon={"book-open"} />
+                <h2>Interesting Articles</h2>
+                <ul className="articles">
+                  {articles}
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     );

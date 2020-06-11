@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 
-import styles from './resume.css';
+import './resume.css';
 
 class Resume extends Component {
   render() {
-    console.log(this.props.data);
     if(this.props.data){
       var work = this.props.data.work.map(function(work){
         return <div key={work.company}><h3>{work.company}</h3>
@@ -18,7 +17,7 @@ class Resume extends Component {
 
         return <div key={certifications.certificate}>
         <h3>{certifications.certificate}</h3>
-        <p className={styles.info}>
+        <p className="info">
           <a href={certifications.url}>
             <img className="badge" alt={certifications.badge} src={badgeImage} />
           </a>
@@ -32,7 +31,10 @@ class Resume extends Component {
         return <div key={education.school}><h3>{education.school}</h3>
         <p className="info">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
         <p>{education.description}</p></div>
-      })
+      });
+
+      var resumeDownload = this.props.data.resumedownload;
+
     }
 
     return (
@@ -74,7 +76,11 @@ class Resume extends Component {
             </div>
           </div>
         </div>
-
+        <div className="columns download">
+           <p>
+              <a href={resumeDownload} className="button"><i className="fa fa-download"></i>Download Resume</a>
+           </p>
+        </div>
       </section>
     );
   }
