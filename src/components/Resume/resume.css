@@ -37,8 +37,9 @@
   width: 60px;
 }
 #resume .info {
-  font: 16px/24px 'librebaskerville-italic', serif;
-  color: #6E7881;
+  font: 18px/24px 'librebaskerville-italic', serif;
+  font-weight: bold;
+  color: #335A9C;
   margin-bottom: 18px;
   margin-top: 9px;
 }
@@ -48,6 +49,7 @@
 }
 #resume .date {
   font: 15px/24px 'opensans-regular', sans-serif;
+  color: #6E7881;
   margin-top: 6px;
 }
 

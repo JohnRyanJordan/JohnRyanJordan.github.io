@@ -25,7 +25,7 @@
   height: 200px;
   border-radius: 100%;
 }
-#about .details { width: 41.66667%; }
+#about .details { width: 100%; }
 #about .section-icon {
   width: 50px;
   height: 50px;

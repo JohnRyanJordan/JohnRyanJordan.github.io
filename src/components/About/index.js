@@ -13,9 +13,9 @@ class About extends Component {
       var networks= this.props.data.social.map(function(network){
         return <li key={network.name}><a href={network.url}><FontAwesomeIcon icon={['fab', network.className]}/></a></li>
       })
-      var articles= this.props.data.articles.map(function(article){
-        return <li key={article.title}><a href={article.url}>{article.title}</a> <br/> <span> on: {article.source}</span> </li>
-      })
+      // var articles= this.props.data.articles.map(function(article){
+      //   return <li key={article.title}><a href={article.url}>{article.title}</a> <br/> <span> on: {article.source}</span> </li>
+      // })
     }
 
     return (
@@ -38,6 +38,8 @@ class About extends Component {
                   {networks}
                 </ul>
               </div>
+              {/*
+
               <div className="columns details">
                 <FontAwesomeIcon className="section-icon" icon={"book-open"} />
                 <h2>Interesting Articles</h2>
@@ -45,6 +47,8 @@ class About extends Component {
                   {articles}
                 </ul>
               </div>
+              */}
+
             </div>
           </div>
         </div>

@@ -6,9 +6,16 @@ class Resume extends Component {
   render() {
     if(this.props.data){
       var work = this.props.data.work.map(function(work){
-        return <div key={work.company}><h3>{work.company}</h3>
-          <p className="info">{work.title}<span>&bull;</span> <em className="date">{work.years}</em></p>
-          <p>{work.description}</p>
+        console.log(work.description.split('\n'));
+        let description = work.description.split('\n').map(i => {
+            return <li>- {i}</li>
+        });
+        return <div key={work.company}><h3>{work.title}</h3>
+          <p className="info">{work.company}<span>&bull;</span> <em className="date">{work.years}</em></p>
+          <ul className="work-description">
+            {description}
+          </ul>
+
         </div>
       })
 
@@ -28,8 +35,8 @@ class Resume extends Component {
       })
 
       var education = this.props.data.education.map(function(education){
-        return <div key={education.school}><h3>{education.school}</h3>
-        <p className="info">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
+        return <div key={education.school}><h3>{education.degree}</h3>
+        <p className="info">{education.school} <span>&bull;</span><em className="date">{education.graduated}</em></p>
         <p>{education.description}</p></div>
       });
 

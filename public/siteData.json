@@ -5,58 +5,36 @@
     "description":"",
     "bio":"Tinkering is my habit, building is my passion.",
     "image":"profilepic.jpg",
-    "email": "johnryanjordan@gmail.com",
     "website": "http://www.johnryanjordan.com",
     "social":[
       {
         "name":"github",
         "url":"https://github.com/johnryanjordan",
         "className":"github"
-      },
-      {
-        "name":"linkedin",
-        "url":"https://www.linkedin.com/in/john-ryan-jordan",
-        "className":"linkedin"
-      },
-      {
-        "name":"facebook",
-        "url":"https://www.facebook.com/johnryanjordan",
-        "className":"facebook"
-      },
-      {
-        "name":"instagram",
-        "url":"https://www.instagram.com/john.ryan.jordan/",
-        "className":"instagram"
-      }
-    ],
-    "articles":[
-      {
-        "title":"PlaceHolder",
-        "url":"https://www.johnryanjordan.com",
-        "source":"PlaceHolder"
-      },
-      {
-        "title":"PlaceHolder",
-        "url":"https://www.johnryanjordan.com",
-        "source":"PlaceHolder"
       }
     ]
   },
   "resume":{
-    "resumedownload":"http://johnryanjordan.com/resume",
+    "resumedownload":"https://johnryanjordan-public-downloads.s3.amazonaws.com/Ryan+Jordan+2020+Resume.pdf",
     "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "work":[
       {
         "company":"Geoso, Inc.",
-        "title":"CTO/Cofounder",
-        "years":"June 2018 - Present",
-        "description":"Fullstack developer using whatever tool suits the job."
+        "title":"Cofounder & CTO",
+        "years":"2018 - Present",
+        "description":"Cofounded software tech startup \n Developed autoscaling backend using AWS infrastructure and integrated business APIs \n Built Android and iOS applications from ground up \n Managed day to day business operations and product design \n Performed customer discovery interviews \n Contractor hiring, management and negotiations \n Raised over $27,500 in funds/business credits"
       },
       {
         "company":"Ankrom Moissan Architects, Inc.",
-        "title":"Research and Development Intern",
+        "title":"R&D Developer",
         "years":"2016",
-        "description":"Developed tools for demographic and city expansion analysis."
+        "description":"Assisted in propping up R&D department at leading west coast architecture firm \n Lead effort in automation of demographic data mining and aggregation for target markets \n Utilized machine learning tools to develop application for city expansion analysis and data visualization \n Streamlined business processes to improve workflow and customer engagement, dramatically reducing man hours \n Produced VR/AR walkthrough experience for 3D building designs"
+      },
+      {
+        "company":"Dassault Falcon Jet",
+        "title":"Logistics Intern",
+        "years":"2016",
+        "description":"Reorganized and optimized warehouse operations and parts distribution \n Automated processes for inactive and future inventory cataloging \n Managed inventory valued in excess of $100 million dollars \n Facilitated analysis and reorganization of warehouse operational efficiency \n Enhanced inventory tracker to auto generate labels across over 100,000 different aerospace components"
       }
     ],
     "certifications":[
@@ -73,6 +51,13 @@
         "attained":"April 2020",
         "url":"https://www.youracclaim.com/badges/d3b0ff39-7705-4163-a4e6-a95259d6de02/public_url",
         "description":""
+      },
+      {
+        "certificate":"Azure Certified Solutions Architect",
+        "badge":"azure-certified-solutions-architect.png",
+        "attained":"In progress (est. September)",
+        "url":"",
+        "description":""
       }
     ],
     "education":[
@@ -80,13 +65,13 @@
         "school":"University of Arkansas",
         "degree":"BS Electrical Engineering",
         "graduated":"December 2017",
-        "description":""
+        "description":"Minors Math and Computer Science"
       },
       {
-        "school":"Pulaski Academy",
-        "degree":"High School",
-        "graduated":"March 2013",
-        "description":""
+        "school":"Winthrop Rockefeller Foundation",
+        "degree":"Delta I Fund",
+        "graduated":"2018",
+        "description":" 1 of 10 startups selected & funded for the 12 week business accelerator modeled after National Science Foundation I-Corp program. Won 2nd place @ Demo Day."
       }
     ]
   },
@@ -96,7 +81,24 @@
         "title":"Geoso",
         "category":"Website",
         "image":"geoso-website.png",
-        "url":"https://github.com/geoso-inc"
+        "url":"https://geoso.io/"
+      },
+      {
+        "title":"Local News Mobile",
+        "category":"Website",
+        "image":"local-news-mobile.png",
+        "url":"https://github.com/JohnRyanJordan/local-news-mobile"
+      },
+      {
+        "title":"Local News Backend",
+        "category":"Website",
+        "image":"local-news-backend.png",
+        "url":"https://github.com/JohnRyanJordan/local-news-backend"
+      },
+      {
+        "title":"Demographics Mapping",
+        "category":"Website",
+        "image":"demographics-mapping.png"
       }
     ]
   }
