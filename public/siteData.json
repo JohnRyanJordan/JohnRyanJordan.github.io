@@ -3,7 +3,7 @@
     "name":"Ryan Jordan",
     "occupation":"Software Engineer and CTO/Cofounder @ Geoso, Inc.",
     "description":"",
-    "bio":"Tinkering is my habit, building is my passion.",
+    "bio":"Self start entrepreneur and techie with background in software development, engineering, process automation & management. Highly interested in startups and fast paced/high growth organizations. Tinkering is my habit, building is my passion.",
     "image":"profilepic.jpg",
     "website": "http://www.johnryanjordan.com",
     "social":[
@@ -33,7 +33,7 @@
       {
         "company":"Dassault Falcon Jet",
         "title":"Logistics Intern",
-        "years":"2016",
+        "years":"2013 & 2014",
         "description":"Reorganized and optimized warehouse operations and parts distribution \n Automated processes for inactive and future inventory cataloging \n Managed inventory valued in excess of $100 million dollars \n Facilitated analysis and reorganization of warehouse operational efficiency \n Enhanced inventory tracker to auto generate labels across over 100,000 different aerospace components"
       }
     ],
@@ -85,19 +85,30 @@
       },
       {
         "title":"Local News Mobile",
-        "category":"Website",
+        "category":"Github Repository",
         "image":"local-news-mobile.png",
         "url":"https://github.com/JohnRyanJordan/local-news-mobile"
       },
       {
         "title":"Local News Backend",
-        "category":"Website",
+        "category":"Github Repository",
         "image":"local-news-backend.png",
         "url":"https://github.com/JohnRyanJordan/local-news-backend"
       },
       {
+        "title":"AI Naval Boat Project",
+        "category":"Google Photo Album",
+        "image":"ai-boat-project-pcb-boat.png",
+        "url":"https://photos.app.goo.gl/WLJurfWMGbXJB7WHA"
+      },
+      {
+        "title":"Multi Rotor Aircraft",
+        "category":"Image",
+        "image":"multirotor-aircraft.jpg"
+      },
+      {
         "title":"Demographics Mapping",
-        "category":"Website",
+        "category":"Image",
         "image":"demographics-mapping.png"
       }
     ]

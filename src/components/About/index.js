@@ -8,7 +8,7 @@ class About extends Component {
 
     if(this.props.data){
       var profilepic= "images/"+this.props.data.image;
-      // var bio = this.props.data.bio;
+      var bio = this.props.data.bio;
       var email = this.props.data.email;
       var networks= this.props.data.social.map(function(network){
         return <li key={network.name}><a href={network.url}><FontAwesomeIcon icon={['fab', network.className]}/></a></li>
@@ -25,21 +25,17 @@ class About extends Component {
             <img className="profile-pic"  src={profilepic} alt="profilepic" />
           </div>
           <div className="nine columns main-col">
-            {/*
-              <h2>About Me</h2>
-              <p>{bio}</p>
-            */}
+            <h2>About Me</h2>
+            <p>{bio}</p>
             <div className="row">
               <div className="columns details">
-                <FontAwesomeIcon className="section-icon" icon={"address-card"} />
-                <h2>Get in touch!</h2>
+                <h2>Connect with me on Github!</h2>
                 <p> <a href={"mailto:"+{email}}><span>{email}</span></a> </p>
                 <ul className="social">
                   {networks}
                 </ul>
               </div>
               {/*
-
               <div className="columns details">
                 <FontAwesomeIcon className="section-icon" icon={"book-open"} />
                 <h2>Interesting Articles</h2>
