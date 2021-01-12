@@ -39,6 +39,20 @@
     ],
     "certifications":[
       {
+        "certificate":"Azure Certified Solutions Architect Expert",
+        "badge":"azure-certified-solutions-architect.png",
+        "attained":"January 2021",
+        "url":"https://www.youracclaim.com/badges/77dbf402-a164-427a-b82a-e8e2950990d1/public_url",
+        "description":""
+      },
+      {
+        "certificate":"Professional Scrum Master I",
+        "badge":"professional-scrum-master.png",
+        "attained":"July 2020",
+        "url":"https://www.scrum.org/certificates/555650",
+        "description":""
+      },
+      {
         "certificate":"AWS Certified Solutions Architect Associate",
         "badge":"aws-certified-solutions-architect-associate.png",
         "attained":"May 2020",
@@ -52,13 +66,7 @@
         "url":"https://www.youracclaim.com/badges/d3b0ff39-7705-4163-a4e6-a95259d6de02/public_url",
         "description":""
       },
-      {
-        "certificate":"Azure Certified Solutions Architect Expert",
-        "badge":"azure-certified-solutions-architect.png",
-        "attained":"January 2021",
-        "url":"https://www.youracclaim.com/badges/77dbf402-a164-427a-b82a-e8e2950990d1/public_url",
-        "description":""
-      }
+
     ],
     "education":[
       {
