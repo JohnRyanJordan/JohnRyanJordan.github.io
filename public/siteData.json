@@ -1,7 +1,7 @@
 {
   "basic": {
     "name":"Ryan Jordan",
-    "occupation":"Software Engineer and CTO/Cofounder @ Geoso, Inc.",
+    "occupation":"Technical/Business Consultant & CTO/Cofounder @ Geoso, Inc.",
     "description":"",
     "bio":"Self start entrepreneur and techie with background in software development, engineering, process automation & management. Highly interested in startups and fast paced/high growth organizations. Tinkering is my habit, building is my passion.",
     "image":"profilepic.jpg",
@@ -19,6 +19,12 @@
     "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "work":[
       {
+        "company":"JRJ Consulting LLC.",
+        "title":"Owner",
+        "years":"2021 - Present",
+        "description":"Business agility and startup consulting \n Provide guidance on funding and venture capital \n Full cloud architecture (AWS, Azure, and GCP) \n Full stack mobile and web development \n Technical analysis and feasibility research"
+      },
+      {
         "company":"Geoso, Inc.",
         "title":"Cofounder & CTO",
         "years":"2018 - Present",
@@ -28,7 +34,7 @@
         "company":"Ankrom Moissan Architects, Inc.",
         "title":"R&D Developer",
         "years":"2016",
-        "description":"Assisted in propping up R&D department at leading west coast architecture firm \n Lead effort in automation of demographic data mining and aggregation for target markets \n Utilized machine learning tools to develop application for city expansion analysis and data visualization \n Streamlined business processes to improve workflow and customer engagement, dramatically reducing man hours \n Produced VR/AR walkthrough experience for 3D building designs"
+        "description":"Assisted in propping up R&D department at leading West Coast architecture firm \n Led effort in automation of demographic data mining and aggregation for target markets \n Utilized machine learning tools to develop application for city expansion analysis and data visualization \n Streamlined business processes to improve workflow and customer engagement, dramatically reducing man hours \n Produced VR/AR walkthrough experience for 3D building designs"
       },
       {
         "company":"Dassault Falcon Jet",
