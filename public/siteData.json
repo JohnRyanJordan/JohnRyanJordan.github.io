@@ -109,10 +109,9 @@
         "url":"https://github.com/JohnRyanJordan/local-news-backend"
       },
       {
-        "title":"AI Naval Boat Project",
-        "category":"Google Photo Album",
-        "image":"ai-boat-project-pcb-boat.png",
-        "url":"https://photos.app.goo.gl/WLJurfWMGbXJB7WHA"
+        "title":"Demographics Mapping",
+        "category":"Image",
+        "image":"demographics-mapping.png"
       },
       {
         "title":"Multi Rotor Aircraft",
@@ -120,9 +119,10 @@
         "image":"multirotor-aircraft.jpg"
       },
       {
-        "title":"Demographics Mapping",
-        "category":"Image",
-        "image":"demographics-mapping.png"
+        "title":"AI Naval Boat Project",
+        "category":"Google Photo Album",
+        "image":"ai-boat-project-pcb-boat.png",
+        "url":"https://photos.app.goo.gl/WLJurfWMGbXJB7WHA"
       }
     ]
   }

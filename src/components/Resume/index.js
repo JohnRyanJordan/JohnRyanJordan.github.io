@@ -6,7 +6,6 @@ class Resume extends Component {
   render() {
     if(this.props.data){
       var work = this.props.data.work.map(function(work){
-        console.log(work.description.split('\n'));
         let description = work.description.split('\n').map(i => {
             return <li>- {i}</li>
         });

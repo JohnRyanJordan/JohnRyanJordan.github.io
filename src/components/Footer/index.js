@@ -6,19 +6,19 @@ import './footer.css';
 class Footer extends Component {
   render() {
 
-    if(this.props.data){
-      var networks= this.props.data.social.map(function(network){
-        return <li key={network.name}><a href={network.url}><FontAwesomeIcon icon={['fab', network.className]}/></a></li>
-      })
-    }
+    // if(this.props.data){
+    //   var networks= this.props.data.social.map(function(network){
+    //     return <li key={network.name}><a href={network.url}><FontAwesomeIcon icon={['fab', network.className]}/></a></li>
+    //   })
+    // }
 
     return (
       <footer>
         <div className="row">
           <div className="twelve columns">
-            <ul className="social-links">
+            {/* <ul className="social-links">
               {networks}
-            </ul>
+            </ul> */}
             <ul className="copyright">
               <li>&copy; Copyright 2020 Ryan Jordan</li>
             </ul>

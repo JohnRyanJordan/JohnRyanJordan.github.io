@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 import './header.css';
 
 class Header extends Component {
@@ -9,7 +8,6 @@ class Header extends Component {
   }
 
   listenScrollEvent = e => {
-    console.log(window.scrollY);
     if (window.scrollY > 30) {
       this.setState({color: '#2B2B2B'})
     } else {
@@ -45,7 +43,7 @@ class Header extends Component {
         </div>
 
         <p className="scrolldown">
-           <a href="#portfolio"><FontAwesomeIcon style={{flex: 1}} icon={"chevron-circle-down"} /></a>
+          <a href="#portfolio"><FontAwesomeIcon style={{flex: 1}} icon={"chevron-circle-down"} /></a>
         </p>
       </header>
     );
