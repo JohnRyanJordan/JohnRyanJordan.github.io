@@ -1,4 +1,3 @@
-import React from 'react';
 import useFetch from 'use-http';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas } from '@fortawesome/free-solid-svg-icons'

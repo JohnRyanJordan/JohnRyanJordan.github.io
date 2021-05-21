@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import { Component } from 'react';
 import './portfolio.css';
 
 class Portfolio extends Component {
