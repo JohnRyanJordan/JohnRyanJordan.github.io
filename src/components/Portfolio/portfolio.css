@@ -39,7 +39,7 @@
 	opacity: 0;
 	-moz-opacity: 0;
 	filter:alpha(opacity=0);
-  background: url(/images/overlay-bg.png) repeat;
+  background: url(/src/assets/images/overlay-bg.png) repeat;
 }
 .portfolio-item .item-wrap .link-icon {
   display: block;

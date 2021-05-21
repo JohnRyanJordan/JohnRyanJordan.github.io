@@ -7,7 +7,7 @@ class About extends Component {
   render() {
 
     if(this.props.data){
-      var profilepic= "images/"+this.props.data.image;
+      var profilePic = require(`../../assets/images/${this.props.data.image}`).default;
       var bio = this.props.data.bio;
       var email = this.props.data.email;
       var networks= this.props.data.social.map(function(network){
@@ -22,7 +22,7 @@ class About extends Component {
       <section id="about">
         <div className="row">
           <div className="three columns">
-            <img className="profile-pic"  src={profilepic} alt="profilepic" />
+            <img className="profile-pic"  src={profilePic} alt="profilePic" />
           </div>
           <div className="nine columns main-col">
             <h2>About Me</h2>

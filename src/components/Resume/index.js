@@ -14,18 +14,15 @@ class Resume extends Component {
           <ul className="work-description">
             {description}
           </ul>
-
         </div>
       })
 
       var certificates = this.props.data.certifications.map(function(certifications){
-        var badgeImage = 'images/badges/'+certifications.badge;
-
         return <div key={certifications.certificate}>
         <h3>{certifications.certificate}</h3>
         <p className="info">
           <a href={certifications.url}>
-            <img className="badge" alt={certifications.badge} src={badgeImage} />
+            <img className="badge" alt={certifications.badge} src={require(`../../assets/images/badges/${certifications.badge}`).default} />
           </a>
           <span>&bull;</span>
           <em className="date">{certifications.attained}</em>
